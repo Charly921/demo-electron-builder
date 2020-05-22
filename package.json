@@ -1,0 +1,28 @@
+{
+  "name": "mt-ingenieria",
+  "version": "0.0.8",
+  "description": "Didocu.com",
+  "author": {
+    "name": "Didocu.com - Carlos Tzintzun",
+    "email": "921charly@gmail.com"
+  },
+  "build": {
+    "appId": "com.didocu.mt-ingenieria",
+    "win": {
+      "icon": "./favicon.png"
+    }
+  },
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-builder": "^20.44.4",
+    "electron-packager": "^13.1.1"
+  }
+}
